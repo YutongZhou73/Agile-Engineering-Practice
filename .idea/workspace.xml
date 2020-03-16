@@ -14,6 +14,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XGsR0eBW7fMMtKJSWM7mOWk4DZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,6 +29,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -54,22 +58,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChanceTest.testNot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.berkeley.aep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
-      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.ChanceTest" />
-      <option name="METHOD_NAME" value="testNot" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ConvertorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aep" />
       <extension name="coverage">
@@ -85,7 +73,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertorTest.check1MileIs1760Yard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RectangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aep" />
       <extension name="coverage">
         <pattern>
@@ -94,9 +82,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
-      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.ConvertorTest" />
-      <option name="METHOD_NAME" value="check1MileIs1760Yard" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.RectangleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.berkeley.aep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
+      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.SquareTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,10 +121,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UnitTest" />
+        <item itemvalue="JUnit.SquareTest" />
+        <item itemvalue="JUnit.RectangleTest" />
         <item itemvalue="JUnit.ConvertorTest" />
-        <item itemvalue="JUnit.ConvertorTest.check1MileIs1760Yard" />
         <item itemvalue="JUnit.ChanceTest" />
-        <item itemvalue="JUnit.ChanceTest.testNot" />
       </list>
     </recent_temporary>
   </component>
@@ -160,41 +162,46 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="348" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.826@0.23.1440.826" timestamp="1583192719844" />
-    <state width="1358" height="199" key="GridCell.Tab.0.bottom" timestamp="1583204986495">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1358" height="198" key="GridCell.Tab.0.bottom" timestamp="1584339436896">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="982" height="199" key="GridCell.Tab.0.bottom/0.0.1024.768@0.0.1024.768" timestamp="1580773918326" />
     <state width="982" height="168" key="GridCell.Tab.0.bottom/0.23.1024.704@0.23.1024.704" timestamp="1582580663417" />
+    <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1584339436896" />
     <state width="1358" height="199" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1583204986495" />
     <state width="1358" height="199" key="GridCell.Tab.0.bottom/0.23.1440.836@0.23.1440.836" timestamp="1580777825565" />
-    <state width="1358" height="199" key="GridCell.Tab.0.center" timestamp="1583204986494">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1358" height="198" key="GridCell.Tab.0.center" timestamp="1584339436895">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="982" height="199" key="GridCell.Tab.0.center/0.0.1024.768@0.0.1024.768" timestamp="1580773918325" />
     <state width="982" height="168" key="GridCell.Tab.0.center/0.23.1024.704@0.23.1024.704" timestamp="1582580663417" />
+    <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1584339436895" />
     <state width="1358" height="199" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1583204986494" />
     <state width="1358" height="199" key="GridCell.Tab.0.center/0.23.1440.836@0.23.1440.836" timestamp="1580777825565" />
-    <state width="1358" height="199" key="GridCell.Tab.0.left" timestamp="1583204986494">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1358" height="198" key="GridCell.Tab.0.left" timestamp="1584339436895">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="982" height="199" key="GridCell.Tab.0.left/0.0.1024.768@0.0.1024.768" timestamp="1580773918324" />
     <state width="982" height="168" key="GridCell.Tab.0.left/0.23.1024.704@0.23.1024.704" timestamp="1582580663416" />
+    <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1584339436895" />
     <state width="1358" height="199" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1583204986494" />
     <state width="1358" height="199" key="GridCell.Tab.0.left/0.23.1440.836@0.23.1440.836" timestamp="1580777825565" />
-    <state width="1358" height="199" key="GridCell.Tab.0.right" timestamp="1583204986495">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1358" height="198" key="GridCell.Tab.0.right" timestamp="1584339436896">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="982" height="199" key="GridCell.Tab.0.right/0.0.1024.768@0.0.1024.768" timestamp="1580773918325" />
     <state width="982" height="168" key="GridCell.Tab.0.right/0.23.1024.704@0.23.1024.704" timestamp="1582580663417" />
+    <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1584339436896" />
     <state width="1358" height="199" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1583204986495" />
     <state width="1358" height="199" key="GridCell.Tab.0.right/0.23.1440.836@0.23.1440.836" timestamp="1580777825565" />
     <state x="416" y="23" width="1024" height="826" key="SettingsEditor" timestamp="1580683791749">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="416" y="23" width="1024" height="826" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1580683791749" />
-    <state x="419" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1583183018696">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state x="419" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1584339253850">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
+    <state x="419" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1584339253850" />
     <state x="419" y="269" key="com.intellij.ide.util.TipDialog/0.23.1440.826@0.23.1440.826" timestamp="1582580440574" />
     <state x="419" y="269" key="com.intellij.ide.util.TipDialog/0.23.1440.827@0.23.1440.827" timestamp="1583183018696" />
     <state x="864" y="353" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1580683976099">
