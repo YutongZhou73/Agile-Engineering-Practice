@@ -2,6 +2,8 @@ package edu.berkeley.aep;
 
 import org.junit.Test;
 
+import java.util.HashSet;
+
 import static org.junit.Assert.*;
 
 public class CityTest {
@@ -56,5 +58,35 @@ public class CityTest {
     @Test
     public void hopsFromHToBShouldBeOne() {
         assertEquals(1, h.hopsTo(b));
+    }
+
+    @Test
+    public void minHopsFromHtoBShouldBeOne() {
+        assertEquals(1, h.minHopsTo(b));
+    }
+
+    @Test
+    public void minHopsFromACityToItselfShouldBeZero() {
+        assertEquals(0, h.minHopsTo(h));
+    }
+
+    @Test
+    public void minHopsFromHtoDShouldBeThree() {
+        assertEquals(3, h.minHopsTo(d));
+    }
+
+    @Test
+    public void minHopsFromHtoEShouldBeThree() {
+        assertEquals(3, h.minHopsTo(e));
+    }
+
+    @Test
+    public void fShouldNotBeAbleToReachG() {
+        assertEquals(-1, f.minHopsTo(g));
+    }
+
+    @Test
+    public void minHopsFromCtoBShouldBeTwo() {
+        assertEquals(2, c.minHopsTo(b));
     }
 }
