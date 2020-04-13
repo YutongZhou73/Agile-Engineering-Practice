@@ -85,8 +85,8 @@ public class CityTest {
         assertEquals(-1, f.minHopsTo(g));
     }
 
-    @Test
-    public void minHopsFromCtoBShouldBeTwo() {
-        assertEquals(2, c.minHopsTo(b));
-    }
+//    @Test
+//    public void minHopsFromCtoBShouldBeTwo() {
+//        assertEquals(2, c.minHopsTo(b));
+//    }
 }
